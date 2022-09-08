@@ -1,1 +1,2 @@
 # JavaScriptQuiz
+The quiz is created with HTML, CSS and JavaScript. Currently, the rendering portion of the assignment is not working properly and only displays one question and at static positions. I would like to use a loop to loop through the questions and have the answer choices appear at different parts every time the start button is pressed. As of now, the timer and display question is working properly.
