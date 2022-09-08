@@ -1,26 +1,11 @@
-/*
-let questions = [
-    {
-        question: "Commonly used data types do not include:",
-        choices: ["your mom", "lmao", "what", "are you kidding me"],
-        answer: "your mom",
-    },
-
-    {
-      question: "huh",
-      choices: ["really", "actually", "idk", "LOL"],
-      answer: "really",
-    }
-];
-*/
 
 let questions = [
   {
     question: "What is my name",
     choice1: "LOL",
-    choice2: "LMFAO",
-    choice3: "youre a bitch",
-    choice4: "yeah fuck u",
+    choice2: "LMF",
+    choice3: "you",
+    choice4: "yeah",
     answer: "2",
   },
 
@@ -28,8 +13,8 @@ let questions = [
     question: "What is your name",
     choice1: "LOLsd",
     choice2: "LMFAOsd",
-    choice3: "youre a bitchsd",
-    choice4: "yeah fuck usd",
+    choice3: "youre",
+    choice4: "ye",
     answer: "2",
   }
 ];
@@ -83,12 +68,12 @@ function startTimer() {
 }
 
 function render() {
-  let q = questions[runningQuestionIndex];
-  questionElementContainer.innerHTML = q.question;
-  choiceOne.innerHTML = q.choice1;
-  choiceTwo.innerHTML = q.choice2;
-  choiceThree.innerHTML = q.choice3;
-  choiceFour.innerHTML = q.choice4;
+  let x = questions[runningQuestionIndex];
+  questionElementContainer.innerHTML = x.question;
+  choiceOne.innerHTML = x.choice1;
+  choiceTwo.innerHTML = x.choice2;
+  choiceThree.innerHTML = x.choice3;
+  choiceFour.innerHTML = x.choice4;
   runningQuestionIndex++;
   
 
